@@ -1,0 +1,109 @@
+@media (max-width: 768px) 
+  {
+    #home .caption p {
+      font-size: 30px;
+      font-weight: 200;
+      line-height: 36px;
+  }
+      #home .caption span
+      {
+        font-size: 30px;
+        line-height: 36px;
+      }
+      
+      nav button
+      {
+        border: none!important;
+      }
+      nav button:focus,nav button:active
+      {
+        border: none!important;
+        box-shadow: none!important;
+      }
+      .navbar-collapse
+      {
+        background-color: #fff;
+      }
+      .navbar-collapse ul li
+      {
+        margin: auto;
+      }
+      .protofolio-nav .nav-link:focus:before, .active:before 
+      {
+        background-color: var(--primary-color);
+      }
+      .nav-link
+      {
+        color: #4e4e4e!important;
+      }
+      .nav-link:hover
+      {
+        color: var(--primary-color);
+      }
+      nav .container
+      {
+        max-width: 100%;
+      }
+  }
+
+@media (min-width: 768px) and (max-width:991px) 
+  {
+    #home .caption p 
+    {
+      font-size: 44px;
+      line-height: 36px;
+    }
+    #home .caption span
+    {
+      font-size: 44px;
+      line-height: 36px;
+    }
+    
+    nav button
+    {
+      border: none!important;
+    }
+    nav button:focus,nav button:active
+    {
+      border: none!important;
+      box-shadow: none!important;
+    }
+    .navbar-collapse
+    {
+      background-color: #fff;
+    }
+    .navbar-collapse ul li
+    {
+      margin: auto;
+    }
+    .protofolio-nav .nav-link:focus:before, .active:before 
+    {
+      background-color: var(--primary-color);
+    }
+    .nav-link
+    {
+      color: #4e4e4e!important;
+    }
+    .nav-link:hover
+    {
+      color: var(--primary-color);
+    }
+    nav .container
+    {
+      max-width: 100%;
+    }
+  }
+
+@media (min-width: 992px) 
+  {
+    #home .caption p 
+    {
+      font-size: 60px;
+      line-height: 72px;
+    }
+    #home .caption span
+    {
+      font-size: 60px;
+      line-height: 72px;
+    }
+  }
